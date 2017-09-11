@@ -35,7 +35,7 @@ $ sudo apt-get install libasound2
 # 4. Building and Running:
 
 ``` shell
-$ git clone https://github.com/96boards/projects.git
+$ git clone https://github.com/96boards-projects/vu_meter.git
 $ cd projects
 $ cd vu_meter
 $ make
