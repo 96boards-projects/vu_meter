@@ -39,7 +39,7 @@ $ git clone https://github.com/96boards-projects/vu_meter.git
 $ cd projects
 $ cd vu_meter
 $ make
-$ ./bin plughw:U0x46d0x825
+$ ./vu_meter plughw:U0x46d0x825
 ```
 
 Replace the Sound card info according to your device
