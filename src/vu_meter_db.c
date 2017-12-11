@@ -1,6 +1,8 @@
-/* Volume Unit meter (VU meter) 
- * 
- * 96Boards examples
+/*
+ * Title: Volume unit meter using 96Boards CE
+ * Author: Manivannan Sadhasivam
+ * Copyright (c) 2017 Linaro Inc.
+ * All rights reserved.
  *
  */
 

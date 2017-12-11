@@ -2,16 +2,12 @@ CC := gcc
 CFLAGS := -Wall -g3
 LDFLAGS := -lasound -lm
 
-all: bin
+all: vu_meter
 
-.c.o:
-	@echo "Compiling $<"
-	@$(CC) $(CFLAGS) -c $<
-
-bin: vu_meter_db.o
-	@$(CC) $^ -o $@ $(LDFLAGS)
+vu_meter:
+	@$(CC) $(CFLAGS) src/vu_meter_db.c -o vu_meter $(LDFLAGS)
 
 clean:
-	@rm -rf ./bin ./*.o
+	@rm -rf ./vu_meter
 
 .PHONY: clean
