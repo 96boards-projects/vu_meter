@@ -9,8 +9,7 @@ permalink: /projects/vu-meter/
 author: Manivannan Sadhasivam
 
 # Add a description of your project
-description: 
-Volume Unit meter (VU meter) is an application used to monitor the intensity of sound using ALSA programming interface for linux.
+description: Volume Unit meter (VU meter) is an application used to monitor the intensity of sound using ALSA programming interface for linux.
 
 # Add the names of your images which are stored in the sub folders here.
 # The first image is always used in the table at /projects/
